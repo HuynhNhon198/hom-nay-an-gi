@@ -1,0 +1,39 @@
+div.article {
+  background-color: #fff;
+  padding: 20px 10px;
+
+  h1 {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 0;
+  }
+
+  img.img-preview {
+    width: 80%;
+    margin: 10px 0;
+    border-radius: 6px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .list-ing {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  img.img-step {
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img.img-preview,
+  img.img-step {
+    width: 100% !important;
+  }
+}
