@@ -1,9 +1,21 @@
 {
-  "name": "My Extension",
-  "version": "1.0",
+  "name": "Hôm Nay Ăn Gì ?",
+  "version": "1.1",
   "manifest_version": 2,
+  "icons": {
+    "16": "./images/icon16.png",
+    "32": "./images/icon32.png",
+    "128": "./images/icon128.png"
+  },
+  "options_page": "index.html",
   "browser_action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "./images/icon16.png",
+      "32": "./images/icon32.png",
+      "128": "./images/icon128.png"
+    },
+    "default_title": "Hôm Nay Ăn Gì?"
   },
   "content_security_policy": "script-src 'self' 'sha256-jF5dxRssUXPekmZ9PP14JKt2e/G/o77/+zGyKElxyRs='; object-src 'self'"
 }

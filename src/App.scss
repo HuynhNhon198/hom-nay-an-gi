@@ -43,7 +43,19 @@
   width: fit-content;
   position: fixed;
   bottom: 10px;
-  left: 0;
-  border-radius: 0 6px 6px 0;
+  right: 0;
+  border-radius: 6px 0 0 6px;
   /* left: 29px; */
+}
+.options {
+  margin: 12px 0;
+}
+.setting {
+  label.checkbox-opt {
+    margin-bottom: 10px;
+  }
+
+  .ant-drawer-body {
+    padding-top: 0 !important;
+  }
 }
